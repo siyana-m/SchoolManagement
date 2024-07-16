@@ -55,8 +55,6 @@ SchoolManagementApp/
 
 ## Prerequisites
 
-## Prerequisites
-
 - [.NET Framework](https://dotnet.microsoft.com/download/dotnet-framework) (version 4.7.2 or later)
 - [Visual Studio](https://visualstudio.microsoft.com/) (with [Windows Forms components](https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-winforms?view=vs-2022) installed)
 
