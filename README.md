@@ -8,16 +8,12 @@ This project is a Windows Forms Application designed to manage basic school syst
 
 The project is structured as follows:
 
+```
 SchoolManagementApp/
 ├── .vs/
 ├── bin/
 ├── obj/
 ├── Properties/
-│ ├── AssemblyInfo.cs
-│ ├── Resources.Designer.cs
-│ ├── Resources.resx
-│ ├── Settings.Designer.cs
-│ └── Settings.settings
 ├── App.config
 ├── Configurator.cs
 ├── DBManipulator.cs
@@ -25,44 +21,20 @@ SchoolManagementApp/
 ├── Form1.Designer.cs
 ├── Form1.resx
 ├── FormEditGrade.cs
-├── FormEditGrade.Designer.cs
-├── FormEditGrade.resx
 ├── FormEditSpecialty.cs
-├── FormEditSpecialty.Designer.cs
-├── FormEditSpecialty.resx
 ├── FormEditStudent.cs
-├── FormEditStudent.Designer.cs
-├── FormEditStudent.resx
 ├── FormEditSubject.cs
-├── FormEditSubject.Designer.cs
-├── FormEditSubject.resx
 ├── FormGrade.cs
-├── FormGrade.Designer.cs
-├── FormGrade.resx
 ├── FormSpecialty.cs
-├── FormSpecialty.Designer.cs
-├── FormSpecialty.resx
 ├── FormStudent.cs
-├── FormStudent.Designer.cs
-├── FormStudent.resx
 ├── FormSubject.cs
-├── FormSubject.Designer.cs
-├── FormSubject.resx
 ├── FormViewGrades.cs
-├── FormViewGrades.Designer.cs
-├── FormViewGrades.resx
 ├── FormViewSpecialties.cs
-├── FormViewSpecialties.Designer.cs
-├── FormViewSpecialties.resx
 ├── FormViewStudents.cs
-├── FormViewStudents.Designer.cs
-├── FormViewStudents.resx
 ├── FormViewSubjects.cs
-├── FormViewSubjects.Designer.cs
-├── FormViewSubjects.resx
 ├── ProjectWFA.sln
 └── README.md
-
+```
 
 ## Key Directories and Files
 
