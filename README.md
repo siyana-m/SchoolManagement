@@ -107,6 +107,37 @@ SchoolManagementApp/
     - Press `F5` or go to `Debug` > `Start Debugging`.
 
 
+## Database Setup
+
+1. **Create a new database in SQL Server Management Studio (SSMS):**
+    - Open SSMS and connect to your SQL Server instance.
+    - Right-click on the `Databases` folder and select `New Database`.
+    - Name the database `SchoolManagementDB` and click `OK`.
+
+2. **Run the provided SQL script:**
+    - Open a new query window in SSMS.
+    - Copy the contents of the `Solution Items/schoolmanagement_db.txt` file into the query window.
+    - Execute the script to create the necessary tables, triggers, and seed data.
+
+3. **Update the connection string:**
+    - Open the `appsettings.json` file in the `RepairPlatform.Web` project.
+    - Update the `ConnectionStrings` section with your SQL Server connection details:
+
+    If you log into SSMS with a username and password:
+    ```json
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=SchoolManagementDB;User Id=YOUR_USERNAME;Password=YOUR_PASSWORD;"
+    }
+    ```
+
+    If you log into SSMS directly with the server (Windows Authentication):
+    ```json
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=SchoolManagementDB;Trusted_Connection=True;"
+    }
+    ```
+
+
 ## Running Tests
 
 To run any tests for the application (if applicable), use Visual Studio's built-in testing tools.
