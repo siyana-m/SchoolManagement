@@ -8,6 +8,7 @@ This project is a Windows Forms Application designed to manage basic school syst
 
 The project is structured as follows:
 
+```
 SchoolManagementApp/
 ├── .vs/
 ├── bin/
@@ -25,44 +26,44 @@ SchoolManagementApp/
 ├── Form1.Designer.cs
 ├── Form1.resx
 ├── FormEditGrade.cs
-├── FormEditGrade.Designer.cs
-├── FormEditGrade.resx
+│ ├── FormEditGrade.Designer.cs
+│ ├── FormEditGrade.resx
 ├── FormEditSpecialty.cs
-├── FormEditSpecialty.Designer.cs
-├── FormEditSpecialty.resx
+│ ├── FormEditSpecialty.Designer.cs
+│ ├── FormEditSpecialty.resx
 ├── FormEditStudent.cs
-├── FormEditStudent.Designer.cs
-├── FormEditStudent.resx
+│ ├── FormEditStudent.Designer.cs
+│ ├── FormEditStudent.resx
 ├── FormEditSubject.cs
-├── FormEditSubject.Designer.cs
-├── FormEditSubject.resx
+│ ├── FormEditSubject.Designer.cs
+│ ├── FormEditSubject.resx
 ├── FormGrade.cs
-├── FormGrade.Designer.cs
-├── FormGrade.resx
+│ ├── FormGrade.Designer.cs
+│ ├── FormGrade.resx
 ├── FormSpecialty.cs
-├── FormSpecialty.Designer.cs
-├── FormSpecialty.resx
+│ ├── FormSpecialty.Designer.cs
+│ ├── FormSpecialty.resx
 ├── FormStudent.cs
-├── FormStudent.Designer.cs
-├── FormStudent.resx
+│ ├── FormStudent.Designer.cs
+│ ├── FormStudent.resx
 ├── FormSubject.cs
-├── FormSubject.Designer.cs
-├── FormSubject.resx
+│ ├── FormSubject.Designer.cs
+│ ├── FormSubject.resx
 ├── FormViewGrades.cs
-├── FormViewGrades.Designer.cs
-├── FormViewGrades.resx
+│ ├── FormViewGrades.Designer.cs
+│ ├── FormViewGrades.resx
 ├── FormViewSpecialties.cs
-├── FormViewSpecialties.Designer.cs
-├── FormViewSpecialties.resx
+│ ├── FormViewSpecialties.Designer.cs
+│ ├── FormViewSpecialties.resx
 ├── FormViewStudents.cs
-├── FormViewStudents.Designer.cs
-├── FormViewStudents.resx
+│ ├── FormViewStudents.Designer.cs
+│ ├── FormViewStudents.resx
 ├── FormViewSubjects.cs
-├── FormViewSubjects.Designer.cs
-├── FormViewSubjects.resx
+│ ├── FormViewSubjects.Designer.cs
+│ ├── FormViewSubjects.resx
 ├── ProjectWFA.sln
 └── README.md
-
+```
 
 ## Key Directories and Files
 
